@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89691f10954be0499cdde592f916b15, type: 3}
+  m_Name: B6
+  m_EditorClassIdentifier: 
+  storyText: 'Next steps
+
+    You again return to consciousness, again wishing you
+    didn''t. You take the locked case carefully since it is still very hot asking
+    yourself whether it was worth the risk. You do your best to open the case and
+    hopefully you succeed.  Among useless in the wild documents you find the cellphone
+    however there is no signal. Trying to take control of yourself you see the relatively
+    high hill in the distance. However, in the other direction you hear the river
+    and a very quiet howl of wolves probably. Where do you decide to go?
+
+
+
+    1)
+    I''ll go towards the hill
+
+    2) I''ll follow the noise of the river'
+  nextStates:
+  - {fileID: 11400000, guid: 78c7b93fa29237b419721d32ca56f71a, type: 2}
+  - {fileID: 11400000, guid: 469f6290a853ce34b9677fb2ad8b3924, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89691f10954be0499cdde592f916b15, type: 3}
+  m_Name: B5
+  m_EditorClassIdentifier: 
+  storyText: 'Next steps
+
+    You again return to consciousness, again wishing you
+    didn''t. You take the axe carefully since it is still very hot asking yourself
+    whether it was worth the risk. Trying to take control of yourself you see the
+    relatively high hill in the distance. However, in the other direction you hear
+    the river and a very quiet howl of wolves probably. Where do you decide to go?
+
+
+
+    1)
+    I''ll go towards the hill
+
+    2) I''ll follow the noise of the river'
+  nextStates:
+  - {fileID: 11400000, guid: 5f8470439db8fe0459e7d01dc256c202, type: 2}
+  - {fileID: 11400000, guid: 21a423c3db9ebc549bc1e544632f643b, type: 2}

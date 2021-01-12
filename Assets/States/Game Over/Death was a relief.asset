@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89691f10954be0499cdde592f916b15, type: 3}
+  m_Name: Death was a relief
+  m_EditorClassIdentifier: 
+  storyText: "Death was a relief\r\nOn the next day all the newspapers will Czech
+    newspapers will have the articles that the plane Washington -Prague crashed in
+    the forest area of K\u0159ivokl\xE1tsko Landscape. No survivors...\r\n\r\n1.
+    Want to repeat this nightmare?\n2. Go to introduction"
+  nextStates:
+  - {fileID: 11400000, guid: 45e6ce3af6d4c3b469789aab86ea68aa, type: 2}
+  - {fileID: 11400000, guid: 98f14bc1434b4db4a946bb87f79203e7, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89691f10954be0499cdde592f916b15, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: "Next steps\r\nYou are near the hill and you see the hole in the cave
+    in the distance being lightened by a moonlight. \r\n\r\n1) Try to climb the hill\r\n\r2)
+    Enter the cave\r\n3) Go further till I encounter any settlement"
+  nextStates:
+  - {fileID: 11400000, guid: f53b9c505a4117e46943940f325ac871, type: 2}
+  - {fileID: 11400000, guid: cb3fd72946fe7bf40b7849d944d80423, type: 2}
+  - {fileID: 11400000, guid: 8f61767012654f34f866f0308768bb9e, type: 2}

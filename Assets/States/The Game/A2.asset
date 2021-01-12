@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89691f10954be0499cdde592f916b15, type: 3}
+  m_Name: A2
+  m_EditorClassIdentifier: 
+  storyText: 'A momentary abatement
+
+    You somehow manage to escape through the
+    flames of this disastrous environment. Totally stressed out, wishing it was a
+    nightmare... nevertheless comprehending that it is a bitter reality. An incredibly
+    loud blast appears from behind, probably the engine exploded. You see the relatively
+    high hill in the distance. However, in the other direction you hear the river
+    and a very quiet howl of wolves probably. Where do you decide to go?
+
+
+
+    1)
+    I''ll go towards the hill
+
+    2) I''ll follow the noise of the river'
+  nextStates:
+  - {fileID: 11400000, guid: 6b738c5cf0226184db82b0049c228947, type: 2}
+  - {fileID: 11400000, guid: 469f6290a853ce34b9677fb2ad8b3924, type: 2}

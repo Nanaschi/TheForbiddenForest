@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89691f10954be0499cdde592f916b15, type: 3}
+  m_Name: A1. Amidst Dead 1
+  m_EditorClassIdentifier: 
+  storyText: "It's night. You return to consciousness wishing you didn't. Around
+    you there are lots of dead bodies and the burning plane that you were using to
+    reach Prague. It is a plane crash and you are the only survivor who is still
+    alive. You should get out of this mess at any cost however right now it is the
+    only opportunity to get something valuable. \r\n\r\n1) Try to scavenge what is
+    around \r\n\r2) Leave a potentially dangerous area near the explosive area of
+    the plane"
+  nextStates:
+  - {fileID: 11400000, guid: 8ac6558d5fdd8724ea0fc59189111e9e, type: 2}
+  - {fileID: 11400000, guid: 621154030da473f44b72828acbff08aa, type: 2}
